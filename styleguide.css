@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+}
+
+h1{
+  font-size: 3em;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+
+section {
+  margin: 0 20px;
+  height: 300px;
+}
+
+section > h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+section > ul > div {
+  /* background-color: blue; */
+  float: left;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+section > ul :first-child {
+  background-color: #D27E60;
+  height: 150px;
+  width: 150px;
+}
+
+section > ul :nth-child(2) {
+  background-color: #f8bc94;
+  height: 150px;
+  width: 150px;
+}
+
+section > ul :nth-child(3) {
+  height: 80px;
+  width: 80px;
+  background-color: #ffc25e;
+  margin-top: 50px;
+}
+
+section > ul :nth-child(4) {
+  height: 80px;
+  width: 80px;
+  background-color: #a4c4c0;
+  margin-top: 50px;
+}
