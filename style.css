@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    width: 960px;
+    margin: auto;
+    height: 60px;
+}
+
+nav {
+    height: 60px;
+}
+
+nav>ul {
+    float: right;
+    height: 40px;
+    margin-top: 20px;
+}
+
+nav>ul>li {
+    float: right;
+    margin-left: 30px;
+}
+
+main {
+    width: 960px;
+    margin: auto;
+}
+
+main>img {
+    margin-bottom: 15px;
+}
+
+div {
+    margin: auto;
+    overflow: hidden;
+    padding: 0 100px;
+}
+
+div>ul>li {
+    height: 240px;
+    width: 240px;
+    float: left;
+}
+
+div>ul>li:nth-child(2) {
+    margin: 0 10px;
+}
+
+article {
+    display: block;
+}
