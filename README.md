@@ -1,5 +1,5 @@
 # Style sheet and Wireframe  
-## Paired rogramming  
+## Paired programming  
      
     
 03/14/2019 - 1hr (30min each) paired programming  
